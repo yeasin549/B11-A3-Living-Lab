@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,60 +18,104 @@
 
 }
     </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'btn-primary':'#FFFFFF' ,
+              'btn-secondary':'#179800'
+              
+            }
+          }
+        }
+      }
+    </script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/f085592aa7.js" crossorigin="anonymous"></script>
 
-    <!-- Daisy ui and Tailwind Css CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!--  Tailwind Css CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
 
 
 </head>
-<body class=".sora-font-normal">
-  <!-- navbar start -->
-  <nav class="border-b border-green-500 bg-white lg:border-none">
-    <div class="navbar bg-base-100">
-      <div class="navbar-start">
-        <div class="dropdown hidden">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </div>
-          
-        </div>
-        <a class="btn btn-ghost w-40  gap-24 flex-col ml-36 ">
-          <img src="c2-assets/logo-header.png  " alt="">
-          <img src="c2-assets/logo-footer.png lg:hidden" alt="">
-          <i class="fa-solid fa-bars text-2xl lg:hidden   "></i>
+<body class=" ">
+  
+   <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+           <!-- Navbar section -->
+    <nav class="flex items-center justify-between mt-5">
+         <div class=" flex items-center lg:w-28">
+            <img class="ml-24 hidden lg:flex" src="c2-assets/logo-header.png" alt="">
+            <div class="flex items-center gap-72 border-solid border-2 border-green-300 w-full">
+                <img class="w-10 ml-4  lg:hidden" src="c2-assets/logo.png" alt="">
+                <i class="fa-solid fa-bars text-2xl mr-10 lg:hidden"></i>
+            </div>
+            
+            
+         </div>
+         <div >
+            <ul class="hidden lg:flex items-center gap-8">
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+         </div>
+         <div class="hidden lg:flex items-center">
+           <i class="fa-solid fa-magnifying-glass text-xl mt-2 mr-6"></i>
+           <i class="fa-solid fa-cart-shopping text-xl mt-2 mr-6"></i>
+            <button class=" px-10 py-2 rounded-md hover:bg-emerald-500 border-solid border-2 border-green-500 mr-3" >login</button>
+            <button class="px-10 py-2 rounded-md bg-[#179800] hover:bg-orange-500 text-white mr-24">Register</button>
+         </div>
         
-        </a>
-      </div>
-      <div class="navbar-center hidden lg:flex ">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Product</a></li>
-          <li><a>Services</a></li>
-          <li><a>Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="navbar-end hidden lg:flex">
-        <i class="fa-solid fa-magnifying-glass text-2xl mr-4 ml-28"></i>
-        <i class="fa-solid fa-cart-shopping text-2xl mr-4"></i>
-        <a class="btn btn-success px-10 text-black bg-white">Login</a>
-        <a class="btn btn-success px-10 ml-3 mr-36">Register</a>
-      </div>
-    </div>
-  </nav>
+      </nav>     
+                      
+
+                    <!-- Banner Section -->
+
+      <section>
+          <div>
+
+                  <!-- Banner-content -->
+              <div>
+                  <h1 class="text-center text-4xl ml-6 mr-6 lg:text-6xl  font-bold mt-24 ">Freshness <span class="text-[#179800]">You Can</span> <br>
+                    <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+                    <p class="text-center ml-6 mr-6  lg:text-2xl text-[#111111] mt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+              </div>
+
+              <!-- Banner-image -->
+               <div>
+                  <img class="block mx-auto mt-10" src="c2-assets/hero-vegetables.png" alt="">
+               </div>
+          </div>
+      </section>
+
+
+
+
+   </header>
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+  
     
   
 
