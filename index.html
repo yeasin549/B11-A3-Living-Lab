@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B11-A3-Living-Lab</title>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        .sora-font-normal {
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+}
+    </style>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f085592aa7.js" crossorigin="anonymous"></script>
+
+    <!-- Daisy ui and Tailwind Css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+
+</head>
+<body class=".sora-font-normal">
+  <!-- navbar start -->
+  <nav class="border-b border-green-500 bg-white lg:border-none">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          
+        </div>
+        <a class="btn btn-ghost w-40  gap-24 flex-col ml-36 ">
+          <img src="c2-assets/logo-header.png  " alt="">
+          <img src="c2-assets/logo-footer.png lg:hidden" alt="">
+          <i class="fa-solid fa-bars text-2xl lg:hidden   "></i>
+        
+        </a>
+      </div>
+      <div class="navbar-center hidden lg:flex ">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Product</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <i class="fa-solid fa-magnifying-glass text-2xl mr-4 ml-28"></i>
+        <i class="fa-solid fa-cart-shopping text-2xl mr-4"></i>
+        <a class="btn btn-success px-10 text-black bg-white">Login</a>
+        <a class="btn btn-success px-10 ml-3 mr-36">Register</a>
+      </div>
+    </div>
+  </nav>
+    
+  
+
+</body>
+</html>
