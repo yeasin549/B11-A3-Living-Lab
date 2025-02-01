@@ -41,13 +41,13 @@
 
 
 </head>
-<body class=" ">
+<body class="container">
   
-   <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
+   <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] lg:w-[1960px]">
            <!-- Navbar section -->
     <nav class="flex items-center justify-between mt-5">
          <div class=" flex items-center lg:w-28">
-            <img class="ml-24 hidden lg:flex" src="c2-assets/logo-header.png" alt="">
+            <img class="ml-36 hidden lg:flex " src="c2-assets/logo-header.png" alt="">
             <div class="flex items-center gap-72 border-solid border-2 border-green-300 w-full">
                 <img class="w-10 ml-4  lg:hidden" src="c2-assets/logo.png" alt="">
                 <i class="fa-solid fa-bars text-2xl mr-10 lg:hidden"></i>
@@ -56,7 +56,7 @@
             
          </div>
          <div >
-            <ul class="hidden lg:flex items-center gap-8">
+            <ul class="hidden lg:flex items-center gap-8 ml-56 ">
             <li><a href="">Product</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Contact us</a></li>
@@ -66,7 +66,7 @@
            <i class="fa-solid fa-magnifying-glass text-xl mt-2 mr-6"></i>
            <i class="fa-solid fa-cart-shopping text-xl mt-2 mr-6"></i>
             <button class=" px-10 py-2 rounded-md hover:bg-emerald-500 border-solid border-2 border-green-500 mr-3" >login</button>
-            <button class="px-10 py-2 rounded-md bg-[#179800] hover:bg-orange-500 text-white mr-24">Register</button>
+            <button class="px-10 py-2 rounded-md bg-[#179800] hover:bg-orange-500 text-white mr-72">Register</button>
          </div>
         
       </nav>     
@@ -97,29 +97,276 @@
    </header>
 
    <main>
+                        <!-- Service section -->
       <section>
-          <h2 class="text-4xl font-semibold text-[#179800] ml-4 mt-[100px] mb-12 lg:ml-24">Services</h2>
-          <div class="lg:flex">
-          <div class="w-[380px] h-[300px] bg-[#EFEBE3] mb-6 ml-4 mr-4 rounded-lg lg:ml-24">
+          <h2 class="text-4xl font-semibold text-[#179800] ml-4 mt-[100px] mb-12 lg:ml-36 ">Services</h2>
+          <div class="lg:flex justify-between ">
+          <div class="w-[380px] h-[300px] bg-[#EFEBE3] mb-6 ml-4 mr-20 rounded-lg lg:ml-36">
               <img class="block mx-auto rounded-full bg-white px-2 py-2 mt-8" src="c2-assets/service.png" alt="">
               <h3 class="text-xl font-bold text-center pb-3">24/7 Services</h3>
               <p class="text-center ml-8 mr-8">"Fresh vegetables delivered 24/7 with fast service, quality produce, and hassle-free online ordering anytime!"</p>
 
           </div>
-          <div class="w-[380px] h-[300px] bg-[#EFEBE3] mb-6 ml-4 mr-4 rounded-lg lg:ml-24">
+          <div class="w-[380px] h-[300px] bg-[#EFEBE3]  mb-6 ml-4 mr-20 rounded-lg ">
             <img class="block mx-auto  rounded-full bg-white px-2 py-2 mt-8" src="c2-assets/delivery.png" alt="">
             <h3 class="text-xl font-bold text-center pb-3">Fast Delivery</h3>
             <p class="text-center ml-8 mr-8">"Get farm-fresh vegetables delivered fast to your doorstep with our quick and reliable service!"</p>
             
         </div>
-        <div class="w-[380px] h-[300px] bg-[#EFEBE3] ml-4 mr-4 rounded-lg lg:ml-24 mb-[140px]">
+        <div class="w-[380px] h-[300px] bg-[#EFEBE3]  ml-4 mr-4 rounded-lg  mb-[140px] lg:mr-36">
           <img class="block mx-auto  rounded-full bg-white px-2 py-2 mt-8" src="c2-assets/healthy.png" alt="">
           <h3 class="text-xl font-bold text-center pb-3">Healthy Products </h3>
           <p class="text-center ml-8 mr-8">"Fresh, organic vegetable products for a healthier lifestyle—delivering farm-to-table goodness every day!"</p>
           </div>
         </div>
       </section>
+                        <!-- Popular Product Section -->
+                         
+                        <!-- Card design -->
+      <section class="bg-[#EFEBE3] w-full h-auto lg:w-[1960px] lg:h-[820px] ">
+          <h2 class="font-bold text-4xl text-[#179800]  ml-4 mb-8 pt-36 pb-16 lg:ml-36">Popular Products</h2>
+      <div class="lg:flex gap-6">
+        <div class="lg:w-[480px] h-[480px] bg-gradient-to-br from-[#53DB3A] to-[#FFFFFF]  rounded-xl relative lg:ml-36 ">
+          <h3 class="text-white text-5xl font-bold pt-20 pl-8 mb-6">30% off</h3>
+          <p class="text-xl pl-8 mb-6 mr-9 ">Fresh, organic vegetables delivered <br> to  root veggies, more online!</p>
+          <button class="ml-8 bg-white px-6 py-2 text-center text-xl rounded-lg">Buy Now</button>
+           <img class="w-64 absolute bottom-0 right-0 " src="c2-assets/vegetable-offer.png" alt=""> 
+        </div>
+                        <!-- Card item desgin -->
+        
+          
+          <div class="grid grid-cols-2 ml-2  mt-4 mr-4 mb-4 lg:grid lg:grid-cols-3 gap-6">
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px] ">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg  lg:w-24 ml-4 mr-4" src="c2-assets/onion.png" alt="">
+              </div>
+              <div class="mr-10 pl-10">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.5</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Onion 1 KG</h2>
+                  <p class="text-lg">$39.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 ml-4 mr-4" src="c2-assets/tomato.png" alt="">
+              </div>
+              <div class="mr-10 pl-9">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.2</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Tomato 1 KG</h2>
+                  <p class="text-lg">$30.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 ml-4 mr-4" src="c2-assets/potato.png" alt="">
+              </div>
+              <div class="mr-10 pl-10">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.8</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Potato 1 KG</h2>
+                  <p class="text-lg">$25.99</p>
+              </div>
+             
+            </div>
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 ml-4 mr-4" src="c2-assets/carrot.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-9">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.7</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Carrot 1 KG</h2>
+                  <p class="text-lg">$39.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white w-full lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 h-24 ml-4 mr-4" src="c2-assets/peas.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-10">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.3</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Peas 1 KG</h2>
+                  <p class="text-lg">$29.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 ml-4 mr-4" src="c2-assets/radish.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-9">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.9</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Radish 1 KG</h2>
+                  <p class="text-lg">$28.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 h-24 ml-4 mr-4" src="c2-assets/cabbage.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-10">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.2</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Cabbage 1 KG</h2>
+                  <p class="text-lg">$39.99</p>
+              </div>
+             
+            </div>
+
+            <div class=" flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 h-24 ml-4 mr-4" src="c2-assets/corn.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-10">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.7</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Corn 1 KG</h2>
+                  <p class="text-lg">$42.99</p>
+              </div>
+             
+            </div>
+
+            <div class="hidden lg:flex items-center bg-white lg:w-[330px] h-[140px]">
+              <div >
+                <img class="bg-[#EFEBE3] rounded-lg w-24 h-24 ml-4 mr-4" src="c2-assets/capsicum.jpg" alt="">
+              </div>
+              <div class="mr-10 pl-2 ">
+                <div class="flex items-center"><i class="fa-solid fa-star text-orange-300 mr-2"> </i>
+                  <h4 class="text-lg">4.9</h4>
+                  </div>
+                  <h2 class="ml-0 text-xl">Capsicum 1 KG</h2>
+                  <p class="text-lg">$23.99</p>
+              </div>
+             
+            </div>
+            
+                
+          
+        </div>
+      </section>
+
+      <!-- Arrival & Offers Section -->
+    <section class="h-[700px]">
+        <h2 class="text-4xl font-bold text-[#3a8a2c] ml-2 mb-2 lg:ml-36">Arrival & Offers</h2>
+
+        <div class="lg:flex items-center">
+          <div class="bg-[#115414] w-[450] h-[120] mr-2 ml-2 lg:w-[770px] lg:h-[340px] lg:ml-36 rounded-lg flex">
+            
+            <div>
+            <img class="pt-10 ml-5 mb-5" src="c2-assets/dawat-logo.png" alt="">
+            <p class="bg-[#63B76D] lg:w-72 lg:h-16 lg:text-2xl text-white rounded-lg text-center pt-0 lg:pt-4 mb-5 ml-2 lg:ml-10 lg:mt-8 lg:mb-26">Cook Exotic Dishes</p>
+            <h3 class="font-bold text-xl ml-2 lg:text-3xl  lg:ml-10  text-white" >UP to 20% OFF</h3>
+            </div>
+
+            <div>
+              <img class="pt-4 ml-6 " src="c2-assets/dawat-mock-up.png" alt="">
+            </div>
+
+            
+                           
+          </div>
+
+
+          <div class="bg-[#102861] w-[390px] h-[230px] mt-4 mr-4 ml-2 lg:w-[520px] lg:h-[340px] lg:ml-36 lg:mt-2 rounded-lg flex justify-between">
+            
+            <div>
+            <img class=" pt-2 lg:pt-5 lg:ml-5 lg:mb-5" src="c2-assets/india-gate-logo.png" alt="">
+            <p class="bg-[#2A4D97] w-44 h-8  lg:w-72 lg:h-16 lg:text-2xl text-white rounded-lg text-center pt-0 lg:pt-4 mb-5 ml-2 lg:ml-6 lg:mt-4 lg:mb-26">World’s No.1 Rice</p>
+            <h3 class="font-bold text-xl ml-2 lg:text-3xl  lg:ml-6   text-white" >UP to 40% OFF</h3>
+            </div>
+
+            <div>
+              <img class="lg:pt-10 mr-6 lg:mr-6 w-52 h-52 pt-8 " src="c2-assets/india-gate-mock-up.png" alt="">
+            </div>
+
+            
+                           
+          </div>
+
+          
+        
+          
+        </div>
+         
+      
+
+  </section>
+     
+         
+          
+      
+
+
    </main>
+
+
+
+
+                <!-- Footer section -->
+
+      <section>
+        <div class="bg-[#EFEBE3] ml-56 w-[1450px] h-[457px] rounded-lg flex justify-between displ  items-center absolute">
+          <div>
+            <img class="pt-14" src="c2-assets/vegetable-busket.png" alt="">
+          </div>
+          <div class="mr-32">
+              <h1 class="font-bold text-4xl pt-24">Get Grocery News!</h1>
+              <p class="text-2xl pt-7 pb-9">Exclusive Training tips, ticks, product deals and more</p>
+              <input class="text-2xl w-[472px] h-[67px] rounded-lg mb-9" type="email" placeholder="Enter email..."> <br>
+              <button class="bg-[#458deb] w-[164px] h-[45px] text-2xl text-white rounded-lg">Subscribe</button>
+          </div>
+      </div>
+
+      </section>
+
+
+  <footer class="bg-[#179800] lg:w-[1960px] pt-80 ">
+
+        
+
+        <div class="lg:flex justify-between  items-center lg:gap-[158px] lg:pt-[370px]">
+        <div class=" lg:ml-36 lg:mr-28 ">
+            <img class="pt-5 pl-4"  src="c2-assets/logo-footer-.png" alt="">
+            <p class="text-white pt-4 pl-4 mr-2"> A clean, informative footer with contact details, <br> social links, navigation, and fresh vegetable promotions.</p>
+        </div>
+        <div>
+           <ul class="text-white pt-5 pl-4  lg:mr-36">
+                <li class="mb-4"><a href="">Products</a></li>
+                <li class="mb-4"><a href="">Services</a></li>
+                <li class="mb-4"><a href="">Contact us</a></li>
+           </ul>
+        </div>
+        <div>
+            <p class="text-white pb-5 pl-4 lg:text-center text-2xl mt-0 lg:mr-96  ">Follow us</p>
+            <i class="fa-brands fa-facebook text-xl mr-7 pl-4"></i>
+            <i class="fa-brands fa-instagram text-xl mr-7"></i>
+            <i class="fa-brands fa-linkedin text-xl mr-7"></i>
+            <i class="fa-brands fa-youtube text-xl pb-4"></i>
+        </div>
+    </div>
+    </footer>
   
     
   
